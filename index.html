@@ -111,7 +111,7 @@
         </div>
         <div class="row justify-content-around">
           <div class="col-md-4 mb-3">
-            <div class="card" >
+            <div class="card" data-aos="flip-right" data-aos-duration="500"   >
               <img src="Gambar/UB.jpg" class="card-img-top" alt="Projects 1">
               <div class="card-body">
                 <h3>Universitas</h3>
@@ -124,7 +124,7 @@
             </div>  .
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" >
+            <div class="card"  data-aos="flip-right" data-aos-duration="500"  data-aos-delay="100">
               <img src="Gambar/2.jpg" class="card-img-top" alt="Projects 2">
               <div class="card-body">
                 <h3>Pengalaman Kerja</h3>
@@ -133,7 +133,7 @@
             </div>  .
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" >
+            <div class="card" data-aos="flip-right" data-aos-duration="500"  data-aos-delay="200">
               <img src="Gambar/4.jpg" class="card-img-top" alt="Projects 3">
               <div class="card-body">
                 <h3>Project</h3>
@@ -142,7 +142,7 @@
             </div>  .
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" >
+            <div class="card"  data-aos="flip-right" data-aos-duration="500"  data-aos-delay="250">
               <img src="Gambar/3.jpg" class="card-img-top" alt="Projects 4">
               <div class="card-body">
                 <h3>Journy</h3>
@@ -151,7 +151,7 @@
             </div>  .
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" >
+            <div class="card" data-aos="flip-right" data-aos-duration="500"  data-aos-delay="300">
               <img src="Gambar/5.jpg" class="card-img-top" alt="Projects 5">
               <div class="card-body">
               <h3>Hobby</h3>
@@ -167,6 +167,69 @@
     </section>
     <!-- Akhir Projects -->
 
+    <!-- Gallery -->
+    <section id="gallery">
+    <div class="container">
+       <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <a href="">
+              <img src="" alt="">
+            </a>
+          </div> 
+          <div class="col-md-3">
+            <a href="">
+              <img src="" alt="">
+            </a>
+          </div> 
+          <div class="col-md-3">
+            <a href="">
+              <img src="" alt="">
+            </a>
+          </div> 
+          <div class="col-md-3">
+            <a href="">
+              <img src="" alt="">
+            </a>
+          </div> 
+          <div class="col-md-3">
+            <a href="">
+              <img src="" alt="">
+            </a>
+          </div> 
+          <div class="col-md-3">
+            <a href="">
+              <img src="" alt="">
+            </a>
+          </div> 
+          <div class="col-md-3">
+            <a href="">
+              <img src="" alt="">
+            </a>
+          </div> 
+          <div class="col-md-3">
+            <a href="">
+              <img src="" alt="">
+            </a>
+          </div> 
+          <div class="col-md-3">
+            <a href="">
+              <img src="" alt="">
+            </a>
+          </div> 
+          <div class="col-md-3">
+            <a href="">
+              <img src="" alt="">
+            </a>
+          </div> 
+        </div>
+    </div>
+    </section>
+    <!-- Akhir gallery -->
 
     <!-- Contact -->
     <section id="contact">
@@ -231,7 +294,10 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init( {
+        duration: 400,
+        once: true,
+      });
     </script>
 
     <script>

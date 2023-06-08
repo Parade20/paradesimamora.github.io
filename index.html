@@ -175,55 +175,55 @@
             <h2>Gallery</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-md-3">
             <a href="">
-              <img src="" alt="">
+              <img src="img/gallery/G1.jpeg" alt="gambar 1" class="img-fluid" gallery-img>
             </a>
           </div> 
           <div class="col-md-3">
             <a href="">
-              <img src="" alt="">
+              <img src="img/gallery/G2.jpeg" alt="gambar 2"class="img-fluid" gallery-img>
             </a>
           </div> 
           <div class="col-md-3">
             <a href="">
-              <img src="" alt="">
+              <img src="img/gallery/G3.jpeg" alt="gambar 3" class="img-fluid" gallery-img>
             </a>
           </div> 
           <div class="col-md-3">
             <a href="">
-              <img src="" alt="">
+              <img src="img/gallery/G4.jpeg" alt="gambar 4 "class= 'img-fluid' gallery-img>
             </a>
           </div> 
           <div class="col-md-3">
             <a href="">
-              <img src="" alt="">
+              <img src="img/gallery/G5.jpeg" alt="gambar 5" class="img-fluid" gallery-img>
             </a>
           </div> 
           <div class="col-md-3">
             <a href="">
-              <img src="" alt="">
+              <img src="img/gallery/G6.jpeg" alt="gambar 6" class="img-fluid" gallery-img >
             </a>
           </div> 
           <div class="col-md-3">
             <a href="">
-              <img src="" alt="">
+              <img src="img/gallery/G7.jpeg" alt="gambar 7" class="img-fluid" gallery-img>
             </a>
           </div> 
           <div class="col-md-3">
             <a href="">
-              <img src="" alt="">
+              <img src="img/gallery/G8.jpeg" alt="gambar 8" class="img-fluid" gallery-img>
             </a>
           </div> 
           <div class="col-md-3">
             <a href="">
-              <img src="" alt="">
+              <img src="img/gallery/G9.jpeg" alt="gambar 9" class="img-fluid" gallery-img>
             </a>
           </div> 
           <div class="col-md-3">
             <a href="">
-              <img src="" alt="">
+              <img src="img/gallery/G10.jpeg" alt="gambar 10" class="img-fluid" gallery-img>
             </a>
           </div> 
         </div>
@@ -294,6 +294,14 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+
+      const galleryImage = document.querySelectorAll('.gallery-img');
+
+      galleryImage.forEach((img, i) =>{
+        img.dataset.AOS= 'fade-down';
+      })
+
+
       AOS.init( {
         duration: 400,
         once: true,
